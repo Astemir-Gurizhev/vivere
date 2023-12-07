@@ -1,10 +1,13 @@
 .header {
   padding: 10px 0;
+  background: rgb(24, 63, 71);
+  
 }
 .header-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .header-logo {
     width: 130px;
@@ -17,10 +20,10 @@
     margin-right: 70px;
 }
 .header-menu__link {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    color: black;
-    font-family: 'Oswald', sans-serif;
+    color: white;
+    
     
 }
 
@@ -31,7 +34,7 @@
 .header-btns__login {
     text-decoration: none;
     margin-right: 10px;
-    font-family: 'Oswald', sans-serif;
+    
     color: #FB8F1D;
     border: 1px solid #FB8F1D;
     padding: 10px 40px;
@@ -43,5 +46,5 @@
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    
 }
