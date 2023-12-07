@@ -1,0 +1,47 @@
+.header {
+  padding: 10px 0;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    width: 130px;
+}
+.header-menu {
+    list-style: none;
+    display: flex;
+}
+.header-menu__item:not(:last-child) {
+    margin-right: 70px;
+}
+.header-menu__link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+}
+.header-btns__login {
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.header-btns__reg {
+    background: #FB8F1D;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}

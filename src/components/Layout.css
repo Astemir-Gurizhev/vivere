@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 1 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
