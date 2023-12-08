@@ -1,7 +1,10 @@
 .header {
   padding: 10px 0;
   background: rgb(24, 63, 71);
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 .header-row {
     display: flex;
@@ -10,7 +13,7 @@
     
 }
 .header-logo {
-    width: 130px;
+    width: 90px;
 }
 .header-menu {
     list-style: none;
