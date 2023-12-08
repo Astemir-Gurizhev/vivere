@@ -11,7 +11,7 @@ const Header = () => {
                     <Link to={'/'}><img src={Logo} alt="" className="header-logo" /></Link>
                     <ul className="header-menu">
                         <HeaderMenuItem link="/" name="Главная"/>
-                        <HeaderMenuItem link="/" name="Задания"/>
+                        <HeaderMenuItem link="/" name="Обучение"/>
                         <HeaderMenuItem link="/" name="Магазин"/>
                         <HeaderMenuItem link="/" name="Рейтинги"/>
                     </ul>

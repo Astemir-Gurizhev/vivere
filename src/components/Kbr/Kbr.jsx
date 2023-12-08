@@ -2,7 +2,7 @@ import React from "react"
 import "./Kbr.css"
 import Image1 from "../../images/Kbr/1.jpg"
 import Image2 from "../../images/Kbr/2.jpg"
-import Image3 from "../../images/Kbr/3.jpg"
+import Image3 from "../../images/Kbr/11.png"
 const Kbr = () => {
     return (
         <div className="kbr">

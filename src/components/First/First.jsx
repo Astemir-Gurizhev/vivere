@@ -1,21 +1,19 @@
 import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; 
+import {Link} from "react-router-dom"
 import "./First.css";
-import Image2 from "../../images/First/7.jfif";
+
 
 const First = () => {
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-      autoplay={{ delay: 1000 }}
-      loop={true}
-    >
-      <SwiperSlide><img src={Image2} alt="" className="slider-img" /></SwiperSlide>
-    </Swiper>
+    <div className="first">
+      <div className="container">
+        <div className="first-row">
+          <div className="first-title">Adyghe</div>
+          <div className="first-text">Сервис для изучения кабардинского языка</div>
+          <Link to='/Learn' className="first-btn">Начать обучение</Link>
+        </div>
+      </div>
+    </div>
   );
 };
 

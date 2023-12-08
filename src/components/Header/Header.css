@@ -1,6 +1,6 @@
 .header {
   padding: 10px 0;
-  background: rgb(24, 63, 71);
+  background: #20232a;
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,13 +38,13 @@
     text-decoration: none;
     margin-right: 10px;
     
-    color: #FB8F1D;
-    border: 1px solid #FB8F1D;
+    color: white;
+    background: #9D7AFF;
     padding: 10px 40px;
     border-radius: 10px;
 }
 .header-btns__reg {
-    background: #FB8F1D;
+    background: #9D7AFF;
     padding: 10px 40px;
     border-radius: 10px;
     color: white;

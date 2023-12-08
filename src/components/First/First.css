@@ -1,5 +1,33 @@
-.slider-img {
-    height: 850px; /* или любая другая фиксированная высота, которую вы хотите установить */
-    width: 100%;  /* автоматически масштабировать ширину в соответствии с высотой */
-    object-fit: cover; /* сохранять пропорции изображения и обрезать, чтобы заполнить контейнер */
-  }
+.first {
+  background: #20232a;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.first-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.first-title {
+  font-size: 72px;
+  color: #9D7AFF;
+  
+  margin-bottom: 20px;
+}
+.first-text {
+  font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    margin-bottom: 40px;
+}
+.first-btn {
+  background: #9D7AFF;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
