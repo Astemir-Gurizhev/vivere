@@ -12,7 +12,7 @@ const Header = () => {
                     <ul className="header-menu">
                         <HeaderMenuItem link="/" name="Главная"/>
                         <HeaderMenuItem link="/" name="Обучение"/>
-                        <HeaderMenuItem link="/" name="Магазин"/>
+                        <HeaderMenuItem link="/" name="Сообщество"/>
                         <HeaderMenuItem link="/" name="Рейтинги"/>
                     </ul>
                     <div className="header-btns">
