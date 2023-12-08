@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import Layout from "./components/Layout"
 
 
-export default () => {
+const App = () => {
   return (
     <>
       <Routes>
@@ -16,4 +16,4 @@ export default () => {
   );
 }
 
-
+export default App

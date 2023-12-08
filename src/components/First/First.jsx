@@ -4,9 +4,7 @@ import 'swiper/swiper-bundle.css';
 import "./First.css";
 import Image2 from "../../images/First/7.jfif";
 
-
-
-export default () => {
+const First = () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -20,3 +18,5 @@ export default () => {
     </Swiper>
   );
 };
+
+export default First

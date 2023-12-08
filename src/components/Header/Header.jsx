@@ -3,7 +3,7 @@ import Logo from "../../images/Header/logo.webp"
 import {Link} from "react-router-dom"
 import HeaderMenuItem from "./HeaderMenuItem";
 import "./Header.css"
-export default () => {
+const Header = () => {
     return (
         <div className="header">
             <div className="container">
@@ -24,3 +24,5 @@ export default () => {
         </div>
     )
 }
+
+export default Header

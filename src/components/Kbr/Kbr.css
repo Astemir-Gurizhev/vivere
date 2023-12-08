@@ -26,26 +26,26 @@
     
 }
 .kbr-left {
-    
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
 }
 .kbr-left__img {
-    flex: 50%;
-    width: 400px;
+    max-width: 400px;
     
 }
 .kbr-left__img:nth-child(1) {
     border-top-left-radius: 20px;
+    margin-bottom: 20px;
 }
 .kbr-left__img:nth-child(2) {
     border-bottom-left-radius: 20px;
 }
 
 .kbr-right__img {
-    flex: 50%;
+    max-width: 800px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
