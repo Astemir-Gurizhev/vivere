@@ -1,5 +1,5 @@
 .first {
-  margin-top: 110px;
+  padding-top: 110px;
   background: #20232a;
   background-size: cover;
   padding-top: 70px;
@@ -12,6 +12,7 @@
   flex-direction: column;
 }
 .first-title {
+  margin-top: 110px;
   font-size: 72px;
   color: #9D7AFF;
   

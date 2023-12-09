@@ -107,7 +107,7 @@
   padding-right: 50px;
 }
 .center-header{
-  border-bottom: 2px solid  #9D7AFF;
+  border-bottom: 2px solid  black;
   max-width: 800px;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@
 
 }
 .center-header__title {
-  color: #9D7AFF;
+  color: black;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -183,8 +183,9 @@
 /* ------------------RIGHT--------------------- */
 
 .right {
+  padding-top: 50px;
   padding-right: 150px;
-  margin-top: 50px;
+  padding-left: 50px;
   position: relative;
   
 }
@@ -217,7 +218,8 @@
   margin: 0 auto;
   max-width: 400px; 
   margin-bottom: 40px;
-  
+  border: 2px solid #20232a;
+  border-top: none;
 }
 .right-profile__head{
   background: url("../../images/Learn/Right/Rectangle\ 45.png") no-repeat;
@@ -250,6 +252,7 @@
 }
 .right-profile__bio {
   margin-left: 20px;
+  
   
 }
 .right-profile__bio__text{
