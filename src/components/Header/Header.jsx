@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/Header/logo.webp"
+import Logo from "../../images/Header/1.png"
 import {Link} from "react-router-dom"
 import HeaderMenuItem from "./HeaderMenuItem";
 import "./Header.css"
@@ -11,7 +11,7 @@ const Header = () => {
                     <Link to={'/'}><img src={Logo} alt="" className="header-logo" /></Link>
                     <ul className="header-menu">
                         <HeaderMenuItem link="/" name="Главная"/>
-                        <HeaderMenuItem link="/" name="Обучение"/>
+                        <HeaderMenuItem link="/Learn" name="Обучение"/>
                         <HeaderMenuItem link="/" name="Сообщество"/>
                         <HeaderMenuItem link="/" name="Рейтинги"/>
                     </ul>

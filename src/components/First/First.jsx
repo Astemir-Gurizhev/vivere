@@ -8,7 +8,7 @@ const First = () => {
     <div className="first">
       <div className="container">
         <div className="first-row">
-          <div className="first-title">Adyghe</div>
+          <div className="first-title">Vivere</div>
           <div className="first-text">Сервис для изучения кабардинского языка</div>
           <Link to='/Learn' className="first-btn">Начать обучение</Link>
         </div>
