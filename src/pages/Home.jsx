@@ -1,14 +1,16 @@
 import React from "react";
-import Night from "../components/Kbr/Kbr"
+import Kbr from "../components/Kbr/Kbr"
 import First from "../components/First/First"
 import Footer from "../components/Footer/Footer"
 import Header from "../components/Header/Header"
+import Install from "../components/Install/Install"
 const Home = () => {
     return (
         <>
         <Header/>
            <First/>
-           <Night/> 
+           <Kbr/> 
+           <Install/>
            <Footer/>
         </>
     )
