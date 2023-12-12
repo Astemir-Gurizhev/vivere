@@ -46,6 +46,7 @@
     width: 50px;
 }
 .install-left-btn__text {
+    color: white;
 }
 .install-right {
     border-radius: 100px;
