@@ -23,9 +23,10 @@
     margin-right: 70px;
 }
 .header-menu__link {
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
     
     
 }
@@ -35,19 +36,23 @@
     align-items: center;
 }
 .header-btns__login {
+    font-size: 14px;
     text-decoration: none;
     margin-right: 10px;
-    
+    text-transform: uppercase;
     color: white;
-    background: #9D7AFF;
+    /* background: #9D7AFF; */
+    border: 1px solid white;
     padding: 10px 40px;
     border-radius: 10px;
 }
 .header-btns__reg {
-    background: #9D7AFF;
+    font-size: 14px;
+    /* background: #9D7AFF; */
+    border: 1px solid white;
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    
+    text-transform: uppercase;
 }

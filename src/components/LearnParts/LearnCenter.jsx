@@ -15,7 +15,7 @@ const LearnCenter  = props => {
                 <div class="center-block">
                     <div class="center-block__left">
                     <div class="center-block__title">Раздел 1</div>
-                    <div class="center-block__text">Узнайте основные фразы, выучите первые слова</div>
+                    <div class="center-block__text">Узнайте первые слова</div>
                     </div>
                     <a href="" class="center-block__right">
                         <img src={Image2} alt=""/>

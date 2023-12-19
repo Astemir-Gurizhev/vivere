@@ -1,27 +1,29 @@
 .main{
    display: flex;
-   background: #ffffff;
-   min-height: 100%;
+   background: white
 }
 
 .left {
-  
+ 
   height: 100vh;
   background: #20232a;
   padding-top: 40px;
-  padding-bottom: 40px;
-  flex: 7%;
-  border-right: #2C2745;
-  padding-right: 110px;
-  padding-left: 30px;
+  display: flex;
+  flex: 1 1 auto;
+  
+
+  padding-right: 70px;
+  padding-left: 50px;
   position: relative;
+    /* display: none; */
 }
 .left-menu {
   
   display: flex;
-  justify-content: space-between;
+  
   flex-direction: column;
-  margin-left: 40px;
+  
+ 
   
 }
 .left-menu__logo {
@@ -35,7 +37,7 @@
 .left-menu__item {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 .left-menu__img{
   width: 35px;
@@ -120,14 +122,14 @@
 
 }
 .center-header__title {
+  
   color: black;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1px;
-  margin-left: 330px;
-  
+  margin-left: 50px;
   
   
 
@@ -136,10 +138,11 @@
   border-radius: 15px;
   background: #9D7AFF;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   max-width: 800px;
-  padding: 45px 55px;
+  padding: 45px 95px;
   color: #FFF;
   font-size: 23px;
   font-style: normal;
@@ -150,18 +153,27 @@
   margin-bottom: 50px;
   
   
+  
 }
 .center-block__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .center-block__title {
+  margin-right: 20px;
+  font-size: 30px;
+  
 }
 .center-block__text {
+
   
 }
 .center-block__right {
   text-decoration: none;
   border-radius: 15px;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 15px 35px;
   display: flex;
   align-items: center;
@@ -191,9 +203,9 @@
 }
 .right-profile__bigImg{
   position: absolute;
-  top: 10px;
-  left: 170px;
-  width: 400px;
+  top: 0px;
+  right: 0px;
+  width: 50%;
 }
 .right-header {
   display: flex;
@@ -213,10 +225,11 @@
   
 }
 .right-profile {
+  position: relative;
   border-radius: 15px;
   background: #fff;
   margin: 0 auto;
-  max-width: 400px; 
+  max-width: 80%; 
   margin-bottom: 40px;
   border: 2px solid #20232a;
   border-top: none;

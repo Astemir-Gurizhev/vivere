@@ -1,9 +1,9 @@
 .first {
-  padding-top: 110px;
+  
   background: #20232a;
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .first-row {
@@ -12,24 +12,27 @@
   flex-direction: column;
 }
 .first-title {
-  margin-top: 110px;
-  font-size: 82px;
+  font-size: 62px;
   color: #9D7AFF;
-  
-  margin-bottom: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 .first-text {
-  font-size: 32px;
+  font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: white;
     margin-bottom: 40px;
+
 }
 .first-btn {
   background: #9D7AFF;
-    padding: 10px 40px;
+    padding: 15px 60px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
 }

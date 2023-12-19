@@ -21,11 +21,11 @@ const LearnLeft = () => {
                 <LearnLeftMenuItem src={Image6} name='Ещё' link={'/'}/>
 
             </div>
-            <Link to={'/'} class="left-pro">
+            {/* <Link to={'/'} class="left-pro">
                 <img class="left-pro__img" src={Image7} alt=""/>
                 <div class="left-pro__title">Upgrade to <span class="left-pro__title__bold">PRO</span> for more features.</div>
                 <div class="left-pro__btn">Upgrade</div>
-            </Link>
+            </Link> */}
         </div>
     )
 }

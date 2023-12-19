@@ -7,10 +7,10 @@ const Kbr = () => {
     return (
         <div className="kbr">
                 <div className="container">
-                    <div className="kbr-title">Лучший новый способ выучить язык</div>
+                    <div className="kbr-title">Используйте все возможности онлайн-образования в одном продукте</div>
                     <div className="kbr-text">
                     <span>Учиться с Vivere </span> весело и увлекательно. Зарабатывайте очки за правильные ответы наперегонки со временем и повышайте свой уровень. 
-                        Наши небольшие занятия эффективны, и у нас есть доказательства того, что это работает
+                        
                     </div>
                     <div className="kbr-row">
                         <div className="kbr-left">
